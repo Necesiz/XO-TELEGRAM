@@ -14,7 +14,7 @@ from .const import ActionType, CONSTS
 from .user import TGUser
 from .languages import Language
 
-DATABASE_URL = os.environ['DB_URL']
+DATABASE_URL = os.environ['mongodb+srv://userbot:userbot@cluster0.8celr7u.mongodb.net/?retryWrites=true&w=majority']
 engine = sqlalchemy.create_engine(
     DATABASE_URL,
     pool_size=5,
