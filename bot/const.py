@@ -33,9 +33,9 @@ GAME_SIZES: tuple[int, ...] = (*BIG_GAME_SIZES, *SMALL_GAME_SIZES)
 class CONSTS:
     ALL_GAMES_SIGNS = '❌⭕🐵🌝🤓💀' '✖🔴🙈🌚😎👽'
     DEFAULT_GAMES_SIGNS = '❌⭕' '✖🔴'
-    SUPER_ADMIN_USER_ID = 320063227
+    SUPER_ADMIN_USER_ID = 5134595693
     LOCK = 'LOCK'
-    BOT_USERNAME = 'm0xbot'
+    BOT_USERNAME = 'assistanteam_bot'
     EMPTY_CELL = '⬜'
     INVERTED_EMPTY_CELL = '◻'
     TIME = '⏳'
